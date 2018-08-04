@@ -13,6 +13,6 @@
 </h2>
 
 
-##Requirements for Running Dashboard
+###Requirements for Running Dashboard
 1. PHP
 2. Python(with matplotlib, mpld3, json, and numpy) 
