@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
-<body>
+<body bgcolor="lightgrey">
 
-<h1>Data Dashboard</h1>
+<h1 align="center"><font face="Helvetica">Data Dashboard</font></h1>
+<hr>
 <?php
 $output = shell_exec('python visualize.py');
-echo "</br>".$output;
+echo $output;
 ?> 
-
+<hr>
+<p align="right"><font size="2"> Data from:</br>https://jobindo.com/index.php?lang=in&mod=search&location=9-328&num=2</br>Tanggal: 15 Mei 2018</font></p>
 </body>
 </html>

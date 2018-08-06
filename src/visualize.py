@@ -108,8 +108,11 @@ if __name__ == "__main__":
     plt.xticks(index, tipe)
     plt.title("Jumlah Lowongan berdasarkan Tipe Pekerjaan", fontsize = 20)
     
+    print('<p align="center"><font face="helvetica", size ="5"> <u>Hubungan Pekerjaan dengan Pendidikan Minimal</u></font></p>')
     print(mpld3.fig_to_html(fig1, d3_url=None, mpld3_url=None, no_extras=False, template_type='general', figid=None, use_http=False))
-    print("</br>")
+    print("<hr>")
+    print('<p align="center"><font face="helvetica", size ="5"> <u>Hubungan Pekerjaan dengan Pengalaman Minimal</u></font></p>')
     print(mpld3.fig_to_html(fig2, d3_url=None, mpld3_url=None, no_extras=False, template_type='general', figid=None, use_http=False))
-    print("</br>")
+    print("<hr>")
+    print('<p align="center"><font face="helvetica", size ="5"> <u>Hubungan Pekerjaan dengan Tipe Pekerjaan</u></font></p>')
     print(mpld3.fig_to_html(fig3, d3_url=None, mpld3_url=None, no_extras=False, template_type='general', figid=None, use_http=False))
